@@ -15,11 +15,11 @@
     height: 100%;
 }
 
-.debug .portfolio [class*="col-"] {
+.debug #portfolio [class*="col-"] {
     height: 250px;
 }
 
-.debug .about [class*="col-"] {
+.debug #about [class*="col-"] {
     height: 250px;
 }
 
@@ -31,8 +31,14 @@
     height: 600px;
 }
 
-.debug .portfolio {
+.debug #portfolio {
     background: lightgray;
+}
+
+.form {
+    background-color: lightgreen;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 
 
@@ -46,6 +52,13 @@ nav {
 }
 
 ._jumbotron,
-.about {
+#about {
     background-color: #1ABC9C;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #2C3E50;
 }
