@@ -1,0 +1,9 @@
+/* Debug */
+
+.debug [class*="col-"] {
+    background-color: red;
+    border: 1px solid black;
+}
+
+
+/* /Debug */
