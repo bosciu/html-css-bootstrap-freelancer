@@ -15,12 +15,25 @@
     height: 100%;
 }
 
+.debug .portfolio .container {
+    height: 600px;
+}
+
+.debug .portfolio [class*="col-"] {
+    height: 250px;
+}
+
 .debug nav {
     height: 100px;
 }
 
 .debug ._jumbotron {
     height: 600px;
+}
+
+.debug .portfolio {
+    height: 600px;
+    background: lightgray;
 }
 
 
