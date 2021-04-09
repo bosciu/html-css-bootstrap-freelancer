@@ -1,9 +1,38 @@
 /* Debug */
 
+.debug .container {
+    background-color: yellow;
+    height: 100%;
+}
+
+.debug .row {
+    height: 100%;
+}
+
 .debug [class*="col-"] {
     background-color: red;
     border: 1px solid black;
+    height: 100%;
+}
+
+.debug nav {
+    height: 100px;
+}
+
+.debug ._jumbotron {
+    height: 600px;
 }
 
 
 /* /Debug */
+
+
+/* Header */
+
+nav {
+    background-color: #2C3E50;
+}
+
+._jumbotron {
+    background-color: #1ABC9C;
+}
