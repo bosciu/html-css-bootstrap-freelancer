@@ -33,7 +33,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#contact-me">Contact</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -47,7 +47,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <img class="img-responsive center-block" src="img/avatar.svg" alt="Avatar">
+                        <img class="center-block" src="img/avatar.svg" alt="Avatar">
                         <h1>Start Bootstrap</h1>
                         <div class="horizontal-rule-container">
                             <span>
@@ -145,7 +145,7 @@
         <!-- /Sezione about -->
 
         <!-- Sezione contact-me -->
-        <section class="contact-me">
+        <section id="contact-me">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
@@ -191,21 +191,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-4">
-                        <h4>Location</h4>
-                        <span>2215 John Daniel Drive Clark, MO 65243</span>
+                        <div class="footer-info-box">
+                            <h4>Location</h4>
+                            <span id="position">2215 John Daniel Drive Clark, MO 65243</span>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <h4>AROUND THE WEB</h4>
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-google-plus-g"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-linkedin-in"></i>
+                        <div class="footer-info-box">
+                            <h4>AROUND THE WEB</h4>
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-google-plus-g"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-sm-4">
-                        <h4>ABOUT FREELANCER</h4>
-                        <span>
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by     <span class="color-green"> Start Bootstrap</span>
-                        </span>.
+                        <div class="footer-info-box">
+                            <h4>ABOUT FREELANCER</h4>
+                            <span>
+                                Freelance is a free to use, MIT licensed Bootstrap theme created by     <span class="color-green"> Start Bootstrap</span>.</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -217,6 +222,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
