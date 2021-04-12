@@ -134,6 +134,10 @@ nav {
     color: white;
 }
 
+.navbar-default .navbar-brand:focus {
+    color: white;
+}
+
 .navbar-nav>li>a {
     line-height: 50px;
     font-weight: 600;
@@ -188,8 +192,38 @@ nav {
 #portfolio img {
     width: 100%;
     max-width: 500px;
-    margin-bottom: 10%;
     border-radius: 15px;
+}
+
+.box-image {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.layover {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    border-radius: 15px;
+    background-color: rgba(26, 188, 156, 0.9);
+    font-size: 90px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.box-image:hover .layover {
+    opacity: 1;
+}
+
+.layover>i {
+    position: relative;
+    top: 25%;
 }
 
 #about p {
@@ -316,6 +350,9 @@ footer {
     }
     .navbar-brand {
         font-size: 18px;
+    }
+    .layover {
+        font-size: 70px
     }
 }
 
