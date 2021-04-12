@@ -6,21 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Bootstrap Freelancer</title>
 </head>
 
-<body class="debug">
+<body>
 
     <header>
         <!-- Barra di navigazione -->
-        <nav>
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
-                <div class="row">
-                    <div class="col-xs-6 col-sm-4">Logo</div>
-                    <div class="col-xs-3 col-xs-offset-3 col-sm-4 col-sm-offset-4">Nav</div>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                    <a class="navbar-brand" href="#">Start bootstrap</a>
                 </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
+            <!-- /.container-fluid -->
         </nav>
         <!-- /Barra di navigazione -->
 
@@ -29,7 +47,16 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-                        Jumbotron
+                        <img class="img-responsive center-block" src="img/avatar.svg" alt="Avatar">
+                        <h1>Start Bootstrap</h1>
+                        <div class="horizontal-rule-container">
+                            <span>
+                                <span class="horizontal-rule"></span>
+                            <i class="fas fa-star"></i>
+                            <span class="horizontal-rule"></span>
+                            </span>
+                        </div>
+                        <h2>Grapihc artist - Web designer - Illustrator</h2>
                     </div>
                 </div>
             </div>
@@ -103,9 +130,9 @@
         <div id="info-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4">Info1</div>
-                    <div class="col-sm-4">Info2</div>
-                    <div class="col-sm-4">Info3</div>
+                    <div class="col-xs-12 col-sm-4">Info1</div>
+                    <div class="col-xs-12 col-sm-4">Info2</div>
+                    <div class="col-xs-12 col-sm-4">Info3</div>
                 </div>
             </div>
         </div>
