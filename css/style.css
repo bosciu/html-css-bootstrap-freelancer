@@ -15,20 +15,12 @@
     height: 100%;
 }
 
-.debug #portfolio [class*="col-"] {
-    height: 250px;
-}
-
 .debug #about [class*="col-"] {
     height: 250px;
 }
 
 .debug ._jumbotron {
     height: 600px;
-}
-
-.debug #portfolio {
-    background: lightgray;
 }
 
 .form {
@@ -44,6 +36,7 @@
 /* Common */
 
 body {
+    font-size: 18px;
     color: white;
     text-align: center;
 }
@@ -62,6 +55,14 @@ i[class*=star] {
     background: white;
 }
 
+.horizontal-rule-black {
+    background: #2C3E50;
+}
+
+.fa-star-black {
+    color: #2C3E50;
+}
+
 .horizontal-rule-container {
     padding-bottom: 20px;
 }
@@ -71,13 +72,32 @@ i[class*=star] {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     text-transform: uppercase;
 }
 
 h1 {
     font-size: 60px;
     font-weight: 700;
+}
+
+h2 {
+    margin-top: 5%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.color-black {
+    color: #333333;
+}
+
+.color-green {
+    color: #1ABC9C;
 }
 
 
@@ -143,12 +163,81 @@ nav {
 }
 
 ._jumbotron img.img-responsive {
-    width: 35%;
+    width: 20%;
     margin-top: 5%;
 }
 
-._jumbotron h2 {
-    padding-bottom: 10%;
+._jumbotron h3 {
+    padding-bottom: 5%;
+}
+
+
+/* Main */
+
+#portfolio {
+    padding-top: 50px;
+    color: black;
+}
+
+#portfolio img {
+    width: 100%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+}
+
+#about p {
+    text-align: left;
+}
+
+#about .btn-default {
+    margin: 3% 0;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+form {
+    text-align: left;
+    margin-bottom: 3%;
+}
+
+.form-control {
+    border-color: grey;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-radius: unset;
+    box-shadow: unset;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+.form-control:-moz-placeholder {
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+.form-control::-moz-placeholder {
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #2C3E50;
+    font-size: 18px;
+}
+
+.btn-success {
+    font-size: 18px;
+    background-color: #1ABC9C;
 }
 
 
@@ -156,4 +245,27 @@ nav {
 
 footer {
     background-color: #2C3E50;
+}
+
+#info-footer {
+    padding-top: 2%;
+}
+
+#info-footer span {
+    letter-spacing: 1px;
+}
+
+#info-footer i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+#copyright {
+    background-color: #1A252F;
+    height: 60px;
+    line-height: 60px;
 }
