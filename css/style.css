@@ -244,6 +244,10 @@ form {
     font-size: 18px;
 }
 
+textarea {
+    resize: none;
+}
+
 .btn-success {
     font-size: 18px;
     background-color: #1ABC9C;
